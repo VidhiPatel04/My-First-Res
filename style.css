@@ -1,0 +1,295 @@
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 10;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    color: #f7f5f8;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #320202;
+    border: 2px solid #0c0c0c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddcfcf;
+    color: #050505;
+}
+
+
+#footerClear {
+    clear: both;
+}
+
+#biography-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#biography {
+    width: 50%;
+}
+
+#image {
+    width: 50%;
+}
+
+#footerClear {
+    clear: both;
+}
+
+#biography p {
+    text-align: justify;
+}
+
+main, aside {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 30%;
+}
+
+h1 {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+#biography-section {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+blockquote#quote {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+aside h3 {
+    font-variant: small-caps;
+    color: #333;
+    text-align: center;
+}
+
+aside table {
+    border-collapse: separate;
+    width: 100%;
+}
+
+aside th, aside td {
+    border: 1px solid #021301;
+    padding: 8px;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 5px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    line-height: 2;
+}
+
+nav li {
+    display: inline;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+blockquote#quote {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    main, aside {
+        width: 100%;
+        float: none;
+    }
+
+    nav a, aside a {
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    background: linear-gradient(to bottom, #f4ca8b, #b3fbcb);
+}
+
+h1, h2, h3 {
+    color: rgb(3, 50, 18);
+}
+
+h1 {
+    background: linear-gradient(to right, #fcf7e6, #91350a);
+}
+
+#biography-section {
+    background: linear-gradient(to right, #bce1f5, #4a749e);
+}
+
+#quote {
+    background: linear-gradient(to right, #f6d3d3, #f5bbbb);
+}
+
+iframe {
+    background: linear-gradient(to right, #ddf6dd, #33cc33);
+}
+aside ul li a {
+    text-decoration: style;
+    color: #331aa1;
+    line-height: 2;
+}
+
+aside ul li a:hover {
+    color: #faf5f5; 
+    background-color: #333; 
+}
+
+h3#faq-title {
+    color: #0a8010; 
+    background-color: #bcf5cb; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    color: navy;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #010711; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid navy;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2a0432; 
+    color: rgb(241, 241, 244); 
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0; 
+}
+
+tr:hover {
+    background-color: #ccc; 
+}
+
+
+.question {
+    background-color: #bde5e5; 
+}
+
+
+.answer {
+    background-color: #9991ec; 
+}

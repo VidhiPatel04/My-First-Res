@@ -1,0 +1,135 @@
+<!--   Student Name: Vidhi Bharatkumar Patel
+       Student I'd: 8832488                   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web page about Virat Kohli">
+    <meta name="keywords" content="Famous Person, Biography, History">
+    <title>Virat Kohli - The Ultimate Run-machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 class="title">Virat Kohli</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form > 
+        <div class="form-group">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+       
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+          
+        </div>
+        <div class="form-group">
+            <label for="fav_color">Favourite Colour:</label><br>
+            <input type="color" id="fav_color" name="fav_color" required>
+           
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required>
+
+            
+        </div>
+        <div class="form-group">
+            <label for="contact_method">Preferred Method of Contact:</label><br>
+            <select id="contact_method" name="contact_method" required>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+            </select>
+           
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+         
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="robot" name="robot" required>
+            <label for="robot">I am not a robot</label><br><br>
+         
+        </div>
+        
+        <button type="submit">Submit</button>
+    </form>
+<br>
+    <section id="biography-section">
+        <div id="biography">
+            <h2>Biography</h2>
+            <blockquote id="bio">
+                <p><b>Virat Kohli,</b> Regarded as one of the contemporary cricket industry's titans, personifies unwavering determination and pure brilliance when it comes to his play. Kohli, who was born in Delhi, India, on November 5, 1988, has had an incredible journey from being a young, budding cricket player to leading the Indian squad. As one of the best batsmen of all time, Kohli is renowned for his unwavering dedication to health, steadfast work ethic, and unmatched batting prowess. In One Day Internationals (ODIs), he became the fastest player to score 8,000, 9,000, 10,000, and 11,000 runs thanks to his aggressive style of play and tremendous mental toughness.</p>
+                <footer>wikipedia</footer>
+            </blockquote>
+        </div>
+        <div id="image">
+            <figure class="main-section-figure" id="relative-path-image">
+                <img src="https://raw.githubusercontent.com/VidhiPatel04/My-First-Res/main/Virat-Kohli-celebrates-IND-NED-World-Cup-AP-640.avif" alt="Relative Image" height="300" width="350">
+                <figcaption>Kohli, When India won in 2011.</figcaption>
+            </figure>
+        </div>
+    </section>
+    <h2>Quote</h2>
+    <blockquote id="quote">
+        <q>I get really motivated when I put on the India Jersey.</q>
+        <cite><br><br>- Virat Kohli, November 2021</cite>
+    </blockquote>
+    <section>
+        <h2>Video</h2>
+        <iframe width="420" height="315" src="https://youtube.be/embed/OMBEtL6-mnU?si=9Tso67TqUtDjWdql"></iframe>
+    </section>
+</main>
+<aside>
+    <h3 id="faq-title">FAQs</h3>
+ 
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+        </tr>
+        <tr>
+            <td class="question">When was Virat Kohli born?</td>
+            <td class="answer">Virat Kohli was born on November 5, 1988.</td>
+        </tr>
+        <tr>
+            <td class="question">How many runs has Virat Kohli scored in ODIs?</td>
+            <td class="answer">Virat Kohli has scored over 12,000 runs in One Day Internationals (ODIs).</td>
+        </tr>
+        <tr>
+            <td class="question">How many centuries has Virat Kohli scored in international cricket?</td>
+            <td class="answer">Virat Kohli has scored 70 centuries in international cricket as of 2024.</td>
+        </tr>
+        <tr>
+            <td class="question">What is Virat Kohli's highest score in Test cricket?</td>
+            <td class="answer">Virat Kohli's highest score in Test cricket is 254* runs.</td>
+        </tr>
+    </table>
+    <h3>RESOURCES</h3>
+    <ul>
+        <li><a href="https://www.britannica.com/biography/Virat-Kohli" target="_blank">Britannica</a></li>
+        <li><a href="https://www.instagram.com/virat.kohli/embed/" target="_blank">Social Media</a></li>
+    </ul>
+</aside>
+<div id="footerClear"></div>
+<footer>
+    <p>&copy; Vidhi Patel, 2024</p>
+</footer>
+</body>
+</html>
